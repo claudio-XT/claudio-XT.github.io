@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 } 
-.ancho{
+/* .ancho{
     width: 100%; 
     margin: auto;
-} 
+} */
 .imagenes{
-    position: fixed;   
+    position: relative;   
 }
 .carousel-inner{
     filter:brightness(0.8)
@@ -40,20 +40,20 @@
 }
 .footer{
     background-color:rgb(23, 15, 238) ;
-    height: 7rem;
-    color: rgb(252, 252, 253);
+    height: 5rem;
+    color: white;
 }
 .alinear h1{
     display: inline;
     vertical-align: middle;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1100px) {
     .texto{
-        zoom:25%;
+        zoom:55%;
         text-align: end;
     }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:430px) {
     .alinear h1{
         font-size: 18px;
     }
